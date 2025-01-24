@@ -1,0 +1,107 @@
+
+body {
+    background: url('https://ebubekirbastama.com.tr/circles.webp');
+    background-position: center;
+    color: black;
+}
+.navbar {
+    background-color: #2d3436;
+}
+.navbar a {
+    color: #dfe6e9;
+}
+.navbar a:hover {
+    color: #00cec9;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.section-title {
+    border-bottom: 2px solid #2d3436;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.sidebar {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.sidebar h4 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+.sidebar ul li a {
+    color: #2d3436;
+    text-decoration: none;
+}
+.sidebar ul li a:hover {
+    color: #00cec9;
+}
+/* Özel Buton Stili */
+.custom-control {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.custom-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Önceki Buton İkonu */
+.custom-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-width: 2px 2px 0 0;
+    border-style: solid;
+    border-color: #fff;
+    transform: rotate(-135deg);
+    margin-left: 5px;
+}
+
+/* Sonraki Buton İkonu */
+.custom-next-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-width: 2px 2px 0 0;
+    border-style: solid;
+    border-color: #fff;
+    transform: rotate(45deg);
+    margin-right: 5px;
+}
+
+/* Sol (Önceki) Buton Pozisyonu */
+.carousel-control-prev.custom-control {
+    left: 20px;
+}
+
+/* Sağ (Sonraki) Buton Pozisyonu */
+.carousel-control-next.custom-control {
+    right: 20px;
+}
